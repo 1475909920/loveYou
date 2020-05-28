@@ -7,7 +7,7 @@ body {
 }
 
 #mainDiv{
-	width: 100%;
+	width: 150%;
 	height: 100%;
 }
 
@@ -65,10 +65,10 @@ body {
 }
 
 #code {
-	float: left;
+	float: right;
 	width: 440px;
 	height: 400px;
-	color: #333;
+	color: #eaa440;
 	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
 	font-size: 15px;
 	line-height: 1.5;
@@ -79,7 +79,7 @@ body {
 }
 
 #code .keyword{
-	color: #7f0055;
+	color: rgba(238, 255, 240, 0.99);
 	font-weight:bold;
 }
 
@@ -88,18 +88,18 @@ body {
 }
 
 #code .space{
-	margin-left:7px;
+	margin-left:20px;
 }
 
 #code .comments{
-	color: #3f7f5f;
+	color: #58eaa7;
 }
 
 #copyright{
 	margin-top: 10px;
 	text-align: center;
 	width:100%;
-	color:#666;
+	color: #c1ff52;
 }
 
 #errorMsg{
@@ -112,5 +112,5 @@ body {
 }
 
 #copyright a{
-	color:#666;
+	color: #58eaa7;
 }
